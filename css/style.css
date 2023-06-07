@@ -1,0 +1,725 @@
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../fonts/LibreFranklin-Regular.woff2') format('woff2'),
+        url('../fonts/LibreFranklin-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../fonts/LibreFranklin-SemiBold.woff2') format('woff2'),
+        url('../fonts/LibreFranklin-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../fonts/LibreFranklin-Bold.woff2') format('woff2'),
+        url('../fonts/LibreFranklin-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../fonts/LibreFranklin-Light.woff2') format('woff2'),
+        url('../fonts/LibreFranklin-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body{
+    font-family: 'Libre Franklin';
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*Dashboard start*/
+.main_content{
+    background-color: #F7F5FC;
+    padding: 20px;
+}
+.table_section h3{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.hr_line{border-top: 1px solid #E5EDF1;margin-top: 0px;}
+
+
+.table_section{
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px;
+}
+.table_section hr{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #E3E0ED;
+}
+.table_section .table thead tr th{
+    background: #F7F5FC;
+    /*border-radius: 5px;*/
+    border: none;
+}
+.table_section .table thead tr th:first-child{
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+.table_section .table thead tr th:last-child{
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.table_section .table thead tr th{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    padding: 15px;
+}
+.table_section .table tbody tr td{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #515151;
+    padding: 20px;
+    border: none;
+}
+.table_section .table tbody tr{border-bottom: 1px solid #E3E0ED;}
+.table_section .table tbody tr:last-child{border: none;}
+
+.table_section .table.table_width{min-width: 1200px;}
+
+/*Dashboard End*/
+
+
+/*show_all_drivers Start*/
+.show_all_drivers{
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+}
+.show_all_drivers h3.sub_head{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #333333;
+    background: #F7F5FC;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin: 0;
+}
+.map_content{margin-top: 20px;}
+.map_content iframe{
+    width: 100%;
+    height: 500px;
+}
+/*show_all_drivers End*/
+
+
+.actions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+  .actions a {
+    margin: 0px 5px;
+}
+img.sort-img {
+    margin-left: 10px;
+    margin-top: -3px;
+}
+.page-link{border: none;}
+.page-link.active {
+    background: #725CD0;;
+    border-radius: 100%;
+    color: #FFFFFF;
+}
+.page-item{margin-left: 5px;}
+.page-item a{
+    color: #9A9A9A;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+.page-link{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ipt{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    background: #FFFFFF;
+    border: 1px solid #E3E0ED;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 180px;
+    font-weight: 600;
+    padding: 12px 20px;
+    margin-top: 20px;
+    margin-right: 15px;
+    outline: none;
+}
+.ipt::placeholder{
+    font-size: 14px;
+    color: #ACACAC;
+    font-style: normal;
+    font-weight: normal;
+}
+.form_div{
+    background: #EDF8F6;
+    border-radius: 5px;
+    padding: 0px 20px 20px 20px; 
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+}
+.form_div .filter,.right_content .share{
+    background: #1ABC9C;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.form_div .settings{
+    background: #1C1F21;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.edit_new label.lbl{width: 170px;max-width: 100%;}
+.right_content{
+    display: inline-block;
+    float: right;
+}
+.right_content .add_new{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #725CD0;
+    border-radius: 5px;
+    padding: 12px 23px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+}
+
+label.lbl{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #515151;
+    width: 150px;
+}
+.add_driver .ipt{
+    width: 300px;
+    max-width: 100%;
+    color: #333333;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: auto;
+    margin-bottom: 20px;
+    margin-right: 0px;
+}
+.add_driver .ipt:focus {
+    border-color: #725CD0;
+}
+.add_driver{margin-bottom: 20px;margin-top: 20px;margin-left: 0px;margin-right: 0px;}
+.btm_btns{text-align: center;}
+.btm_btns .cancel{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #1C1F21;
+    border-radius: 5px;
+    padding: 13px 10px;
+    width: 130px;
+    border: none;
+    outline: none;
+    margin-right: 15px;
+}
+.btm_btns .save{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #725CD0;
+    border-radius: 5px;
+    padding: 13px 10px;
+    width: 130px;
+    border: none;
+    outline: none;
+}
+.select_colors{display: inline-flex;align-items: center;flex-wrap: wrap;margin-bottom: 20px;}
+.select_colors div{width: 30px; height:30px;border-radius: 100%;margin: 5px;}
+.select_colors .pencil .pencil_img{
+    background-color: #E74C3C;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.select_colors .pencil {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 45px; height:45px;border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.select_div{display: inline-block;position: relative;width: 300px;max-width: 100%;}
+.select_div1{display: inline-block;position: relative;width: 180px;max-width: 100%;margin-right: 15px;}
+.select_div1 select.ipt{color: #ACACAC;font-weight: normal;}
+.select_div1 .custom_arrow{margin-top: 24px;}
+.custom_arrow{position: absolute;top: 0;right: 0;width: 35px; background: #fff;height: 38px;margin: 3px;pointer-events: none;}
+.custom_arrow:after{
+    content: "";
+    position: absolute;
+    border-top: 8px solid #D4CFE2;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    pointer-events: none;
+}
+
+
+.top_content{
+    background: #EDF8F6;
+    border-radius: 5px;
+    padding: 20px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+}
+.top_content p{
+    display: inline-block;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.top_content .row{width: 100%;}
+
+
+/*sri Start*/
+
+
+/*Login start */
+.login_back{
+    background: linear-gradient(270deg, #D0D7E9 -5.76%, rgba(196, 196, 196, 0) 74.06%);
+}
+    .login_section {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        height: auto;
+        margin: 30px;
+        margin-left: 50px;
+    }
+     .logo {
+        display: flex;
+        margin-right: auto;
+    }
+    
+    .logo a {
+        font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #725CD0;
+        text-decoration: none;
+    }
+    
+    .logo a span {
+        color: #1ABC9C;
+    }
+    .login_form {
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+        padding-top: 30px;
+        width: 100%;
+    }
+    
+    .login_form form {
+        margin-top: 30px;
+    }
+    
+    .login_form h2 {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #333333;
+    }
+    
+    .login_form h5 {
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #959595;
+    }
+    
+    .login-frm-control {
+        border: 0px;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        padding: 21px 16px;
+        width: 400px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+        background: #F7F5FC;
+        border: 1px solid #725CD0;
+        box-sizing: border-box;
+        border-radius: 5px;
+        float: left;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    
+    .login-frm-control label {
+        font-size: 14px;
+        line-height: 18px;
+        color: #333333;
+        font-weight: 600;
+        margin-bottom: 2px;
+        padding-left: 20px;
+    }
+    
+    .login-frm-control input[type="email"],
+    .login-frm-control input[type="email"]:focus,
+    .login-frm-control input[type="password"],
+    .login-frm-control input[type="password"]:focus {
+        border: 0px !important;
+        background: transparent;
+        font-size: 14px;
+        line-height: 18px;
+        color: #333333;
+        font-weight: 600;
+        outline: none;
+        display: block;
+        padding-left: 20px;
+    }
+    
+    .form-control.login-frm-control:hover,
+    .form-control.login-frm-control:focus {
+        background: #ffffff !important;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .form-control.login-frm-control:hover label,
+    .form-control.login-frm-control:focus label {
+        color: #333333;
+    }
+
+    .login_white{
+        background-image: url("../images/login_white.png");
+        background-repeat: no-repeat;
+    }
+
+    .login_right_img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .login_right_banner {
+        margin: auto;
+        object-fit: cover;
+        max-width: 100%;
+    }
+    
+    .login-frm-control .form-group {
+        width: 100%;
+        display: flex;
+    }
+    
+    a.forgot_pwd {
+        padding: 10px 0px 20px;
+        float: right;
+        font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    color: #1ABC9C;
+        text-decoration: none;
+    }
+    
+    .login_email{
+        margin-bottom: 30px;
+    }
+    .login_form input[type="submit"] {
+        width: 400px;
+        padding: 16px 0px;
+    background: #725CD0;
+    border-radius: 5px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFF8F4;
+    }
+    .mail_img img {
+        padding: 12px;
+        background: #725CD0;
+        border-radius: 5px;
+    }
+    .lock_img img{
+        padding: 10px 12px ;
+        background: #FFFFFF;
+        border: 1px solid #725CD0;
+        box-sizing: border-box;
+        border-radius: 5px;   
+    }
+    .mail_img,.lock_img {
+        float: left;
+        display: inline-block;
+    }
+
+/*Login end */
+
+
+/* forgrt pass start*/
+
+.login_pass{
+    width: 460px;
+}
+.forget_back img{
+    cursor: pointer;
+    margin-top: 80px;
+    margin-left: 55px;
+    margin-bottom: 40px;
+}
+
+/* forgrt pass end*/
+
+/*popup start*/
+
+.modal-dialog {
+    max-width: unset!important;
+}
+.popup_content{
+    margin: 70px auto;
+    width: 900px;
+    max-width: 100%;
+}
+.popup_width{
+    width: 900px;
+    margin: auto;
+    max-width: 100%;
+}
+.popup_content{
+    margin: 70px auto;
+    width: 100%;
+}
+.popup_head{
+    padding: 20px;
+}
+.popup_head h1{
+    padding: 13px 20px;
+    background: #F7F5FC;
+    border-radius: 5px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #333333;
+}
+.driver_name h1{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #515151;
+}
+.popup_body{
+    padding: 10px 20px;
+}
+.driver_names h1{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+.popup_top{
+    margin-top: 30px;
+}
+.popup_button{
+    margin: 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+}
+.close_but{
+    padding: 13px 33px;
+    border-color: #1C1F21;
+    background: #1C1F21;
+    border-radius: 5px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+/*popup end*/
+
+/*profile start*/
+.profile_details img{
+    padding: 20px 10px;
+    padding-left: 0px;
+}
+button.change_profile{
+    padding: 8px 14px;
+    margin-right: 10px;
+    background: #1ABC9C;
+    border-color: #1ABC9C;
+    border-radius: 5px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+button.change_profile:hover{
+    color: #FFFFFF;
+}
+button.delete-button{
+    padding: 2.5px 3px;
+    background: #E74C3C;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+button.delete-button i{
+    width: 16px;
+    height: 16px;
+    color: #FFFFFF; 
+}
+.show_all_drivers hr{
+    margin-top: 0px;
+}
+.driver_names input{
+    padding: 14px 20px;
+    width: 300px;
+    background: #FFFFFF;
+    border: 1px solid #E3E0ED;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    outline: none;
+}
+
+.name_top {
+    margin-top: 17px;
+}
+.change_top{
+    margin: 0px 0px!important;
+}
+.update_but{
+    margin-left: 20px;
+    padding: 13px 27px;
+    background: #725CD0;
+    border-color: #725CD0;
+    border-radius: 5px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.close_but:hover,.update_but:hover{
+    color: #FFFFFF;
+}
+.profile_details{padding: 0px 15px;}
+/*profile end*/
+
+
+/*sri End*/
+

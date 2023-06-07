@@ -1,0 +1,126 @@
+
+/*show_all_drivers start*/
+
+@media only screen and (max-width: 500px) and (min-width: 320px){
+    .map_content iframe{height: 300px;}
+    .form_div .ipt{width: 100%;}
+}
+/*show_all_drivers End*/
+
+/*03_Manage_Drivers Start*/
+
+@media only screen and (max-width: 1200px) and (min-width: 320px){
+    .right_content{float: unset;}
+}
+@media only screen and (max-width: 600px) and (min-width: 320px){
+    .form_div .ipt,.select_div1{width: 100%;}
+}
+
+@media only screen and (max-width: 400px) and (min-width: 320px){
+    .page-item {margin-left: 1px;}
+    .page-item a{font-size: 17px;}
+    .page-link {width: 26px;height: 26px;}
+    .table_section .table-responsive{overflow-y: hidden;}
+    .btm_btns .cancel,.btm_btns .save{width: 120px;}
+    .btm_btns {text-align: center;margin-right: -15px;margin-left: -15px;}
+}
+/*03_Manage_Drivers End*/
+
+/*sri Start*/
+@media only screen and (max-width: 1366px){
+    .login_white {background-size: cover;}
+}
+
+@media only screen and (max-width: 1024px){
+    .login_section {margin: 30px;}
+    .login_right_banner {width: 500px;}
+     .login_white {background-size: cover;}
+     .forget_back img {
+        cursor: pointer;
+        margin-top: 60px;
+        margin-left: 35px;
+        margin-bottom: 20px;
+    }
+
+}
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    .popup_width {width: 734px;margin: 12px auto;}
+    .login_section {margin: 20px 30px;}
+    .login_section {width: 300px;}
+    .logo a {font-size: 30px;}
+    .login-frm-control,.login_form input[type="submit"] {width: 320px;}
+    .login_right_banner {width: 100%;}
+    .forget_back img {top: 70px;left: 35px;}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 425px){
+    .popup_width {width: 400px;margin: 10px auto;}
+    .email_top{margin-top: 30px;}
+}
+@media only screen and (max-width: 424px) and (min-width: 375px){
+    .popup_width {width: 350px;margin: 10px auto;}
+    .email_top{margin-top: 30px;}
+    .login-frm-control, .login_form input[type="submit"] {width: 340px!important;}
+    a.forgot_pwd {padding: 10px 47px 20px;}    
+}
+@media only screen and (max-width: 374px) and (min-width: 320px){
+    .popup_width {width: 290px;margin: 10px auto;}   
+}
+@media only screen and (max-width: 767px) and (min-width: 320px){
+    .popup_top {margin-top: 20px;}
+    .popup_head {padding: 0px;}
+    .popup_body {padding: 10px 20px;}
+    .popup_button {margin: 20px 0px;}
+    .email_top {margin-top: 20px;}
+    .login_section {margin: 30px 20px;}
+    .login_right_banner {width: 100%;max-width:100%;}
+    .login-frm-control,.login_form input[type="submit"] {width: 300px;max-width: 100%;}
+    .forget_back img {top: 40px;left: 40px;}
+    .form-group {width: 300px;max-width: 100%;}
+    .login_form{align-items: center;}    
+    .logo{margin-right: unset;}
+    .login_form form{max-width: 100%;}
+    .new_forgotPass,.login_pass{align-items: flex-start;}
+
+}
+@media only screen and (max-width: 375px) and (min-width: 320px){
+    .show_all_drivers hr {margin-top: 20px;}
+    .show_all_drivers {padding: 10px;}
+    .popup_body {padding: 10px 10px;}
+    .driver_names input {padding: 14px 10px;width: 240px;}
+    .close_but,.update_but {padding: 13px 20px;}
+    .logo a {font-size: 25px;}
+    /*.login-frm-control, .login_form input[type="submit"] {width: 260px;}*/
+    .login_section {max-width: 100%;margin: 20px auto;}
+    .login-frm-control label,.login-frm-control input[type="email"],.login-frm-control input[type="password"] {padding-left:10px;font-size: 13px;}
+    .login_right_banner {width: 300px;}      
+}
+
+@media only screen and (max-width: 767px) and (min-width: 501px){
+    .login_white {background-size: 100% 100%;}
+}
+@media only screen and (max-width: 500px) and (min-width: 320px){
+    .login_white {background-size: unset;}
+    .login_section {margin: 20px auto;}
+    .login_pass{padding: 0px 10px;}
+    .forget_back img {
+        cursor: pointer;
+        margin-top: 50px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1150px){
+    .login_section {
+        height: 95vh;
+    }
+    .login_section.login_pass{
+        height: 370px;
+    }
+    .login_right_img.new_pass{height: 100vh;}
+}
+/*sri End*/
+
